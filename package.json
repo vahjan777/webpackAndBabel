@@ -1,0 +1,33 @@
+{
+  "name": "webpackandbabel",
+  "version": "1.0.0",
+  "description": "webpack And Babel",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahjan777/webpackAndBubel.git"
+  },
+  "keywords": [
+    "javascript",
+    "webpac",
+    "babel"
+  ],
+  "author": "Vahe <vahe>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vahjan777/webpackAndBubel/issues"
+  },
+  "homepage": "https://github.com/vahjan777/webpackAndBubel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
