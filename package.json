@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "webpack And Babel",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vahjan777/webpackAndBubel.git"
@@ -11,7 +14,8 @@
   "keywords": [
     "javascript",
     "webpac",
-    "babel"
+    "babel",
+    "js"
   ],
   "author": "Vahe <vahe>",
   "license": "ISC",

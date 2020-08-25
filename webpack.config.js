@@ -1,6 +1,7 @@
 const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+const webpack = require('webpack');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -26,7 +27,7 @@ module.exports = {
                 use: [
                     {
                         loader: 'babel-loader',
-                        options: {presets: ['evn'] }
+                        options: {presets: ['@babel/preset-env'] }
                     }
                 ]
             }
